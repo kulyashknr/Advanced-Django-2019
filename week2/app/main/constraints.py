@@ -1,0 +1,7 @@
+NEW_TASKS = 1
+DONE_TASKS = 2
+
+TASK_STATUSES = (
+    (DONE_TASKS, 'DONE'),
+    (NEW_TASKS, 'NEW'),
+)
