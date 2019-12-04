@@ -58,8 +58,7 @@ class RestaurantDetailView(APIView):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 class Register(CreateAPIView):
-    authentication_classes = ()
-    permission_classes = ()
+1
     serializer_class = UserSerializer
 
     def perform_create(self, serializer):
